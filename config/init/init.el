@@ -144,6 +144,8 @@
 
 ;; Yasnippets
 (yas-global-mode 1)
+(yas-load-directory (concat config-directory
+                            (file-name-as-directory "snippets")))
 
 ;; Multiple cursors
 (setq mc/always-run-for-all t)
