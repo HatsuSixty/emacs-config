@@ -1,7 +1,6 @@
 (package-initialize)
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)
-(package-refresh-contents)
 
 (defvar pkg/package-contents-refreshed nil)
 
